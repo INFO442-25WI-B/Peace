@@ -1,0 +1,64 @@
+<html>
+
+<head>
+    <title>Attack Page</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body>
+    <h1 class="attackInstructions">Select an item and attack the photo</h1>
+
+    <!-- Uploaded Image in the Center -->
+    <div class="attackContainer">
+        <img id="uploadedImage" alt="Uploaded Image">
+    </div>
+
+    <!-- Item Selection at the Bottom -->
+    <div class="itemBoxContainer">
+        <div class="item-box" onclick="selectItem(this)">
+            <img src="/images/fork.png" alt="Fork">
+        </div>
+        <div class="item-box" onclick="selectItem(this)">
+            <img src="/images/knife.png" alt="Knife">
+        </div>
+        <div class="item-box" onclick="selectItem(this)">
+            <img src="/images/bat.png" alt="Baseball Bat">
+        </div>
+    </div>
+
+    <!-- Draggable Item -->
+    <img id="selectedItem" class="draggable" style="display:none;" alt="Selected Item">
+
+    <script>
+        window.onload = function() {
+            const uploadedImage = localStorage.getItem("uploadedImage");
+            if (uploadedImage) {
+                document.getElementById("uploadedImage").src = uploadedImage;
+            }
+        };
+
+        let selectedItem = null;
+
+        function selectItem(itemBox) {
+            const selectedImg = document.getElementById("selectedItem");
+            selectedImg.src = itemBox.querySelector("img").src;
+            selectedImg.style.display = "block";
+            selectedItem = selectedImg;
+        }
+
+        document.addEventListener("mousemove", function(event) {
+            if (selectedItem) {
+                selectedItem.style.left = event.pageX - 25 + "px";
+                selectedItem.style.top = event.pageY - 25 + "px";
+            }
+        });
+
+        document.addEventListener("mousedown", function() {
+            if (selectedItem) {
+                selectedItem.style.position = "absolute";
+            }
+        });
+    </script>
+</body>
+
+</html>
