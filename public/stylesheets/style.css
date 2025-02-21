@@ -82,13 +82,13 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 120px; 
-  height: 120px;
+  width: 150px; 
+  height: 150px;
   cursor: pointer;
 }
 
 .item-box img {
-  width: 100px; 
+  width: 120px; 
   height: auto;
 }
 
@@ -111,4 +111,12 @@ button:hover {
   padding: 10px;
   border-radius: 10px;
   width: 80%;
+}
+
+#selectedItem {
+  position: absolute;
+  width: 200px;
+  height: auto;
+  pointer-events: none;
+  transition: transform 0.1s ease-in-out;
 }
