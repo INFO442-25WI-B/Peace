@@ -1,4 +1,45 @@
-.anger, body {
+button.bubble{
+  height: 125px;
+  width: 125px;
+  background-color: #d5d8d8;
+  border-radius: 50%;
+  margin: 10px;
+  box-shadow: inset 0 0 10px #8c8f8f,  3px 3px 3px 3px #8c8f8f;
+}
+
+button.bubble:active{
+  box-shadow: inset 0 0 10px #8c8f8f;
+}
+
+button.bubble:hover{
+  box-shadow: inset 0 0 10px #8c8f8f;
+}
+
+
+button.refresh{
+  height: 100px;
+  width: 200px;
+  font-size: 50px;
+  justify-content: center;
+  background-color: aqua;
+}
+
+body.calm{
+  background-color: #562A83;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+  justify-content: center;
+  background-color: #dce4e6;
+  padding: 10px;
+  border-radius: 2%;
+  margin: 200px 50px;
+}
+
+.anger {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-color: rgba(170, 0, 30, 1);
@@ -49,9 +90,11 @@ button {
   margin-top: 10px;
 }
 
+/*
 button:hover {
   background-color: rgb(140, 0, 25);
 }
+*/
 
 #preview {
   width: 100%;
@@ -120,3 +163,4 @@ button:hover {
   pointer-events: none;
   transition: transform 0.1s ease-in-out;
 }
+
