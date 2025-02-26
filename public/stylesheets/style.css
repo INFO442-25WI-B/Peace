@@ -1,3 +1,123 @@
+/* Style for Tapping page */
+/* Style for Tapping page */
+/* Style for Tapping page */
+
+body.calm-black{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div button.stressball{
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.stressball{
+  height: 150px;
+  width: 150px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  color: black; 
+}
+
+.stressball.tap1{
+  height: 200px;
+  width: 200px;
+  background-color: #01efac;
+  border-radius: 50%;
+}
+
+.stressball.tap2{
+  height: 300px;
+  width: 300px;
+  background-color: #2082A6;
+}
+
+.stressball.tap3{
+  height: 500px;
+  width: 500px;
+  background-color: #524094;
+}
+
+.stressball.tap4{
+  height: 800px;
+  width: 800px;
+  background-color: #562a83;
+}
+
+.stressball.tap5{
+  height: 1000px;
+  width: 1000px;
+  background-color: #AA001E;
+}
+
+
+
+/* Style for Breathing Exercise page */
+/* Style for Breathing Exercise page */
+/* Style for Breathing Exercise page */
+
+
+body.calm2{
+  background-color: #2082A6;
+  display: inline;
+}
+
+
+.breath-right-h-left-p h2{
+  text-align: right;
+  font-size: 150px; 
+  align-items: center;
+}
+
+.breath-right-h-left-p p{
+  text-align: left;
+  font-size: 75px;
+  margin: 40px;
+}
+
+
+.breath-left-h-right-p h2{
+  text-align: left;
+  font-size: 150px; 
+  margin: 10px;
+}
+  
+.breath-left-h-right-p p{
+  text-align: right;
+  font-size: 75px;
+  margin: 40px;
+
+}
+
+.calm2 h1{
+  font-size: 75px;
+  text-align: center;
+  margin: 90px 0px 25px 0px;
+}
+
+.breath-text{
+  background-image: linear-gradient(to bottom right, white , #2082A6
+  );
+  padding: 50px;
+}
+
+.breath-container{
+  display: flex;
+  font-size: 50px;
+  align-items: center;
+}
+
+.breath-repeat{
+  font-size: 75px;
+  text-align: center;
+  font-weight: bold;
+}
+
+
 /* Style for Bubbble Wrap page */
 /* Style for Bubbble Wrap page */
 /* Style for Bubbble Wrap page */
@@ -27,11 +147,12 @@ button.refresh{
   background-color: aqua;
 }
 
-body.calm{
+body.calm1{
   background-color: #562A83;
+  display: inline;
 }
 
-.container {
+.bubble-container {
   display: flex;
   align-items: center;
   gap: 10px; 

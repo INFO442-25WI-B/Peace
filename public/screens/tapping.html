@@ -2,11 +2,45 @@
 
 <head>
   <title>Tapping Page</title>
-  <link rel="stylesheet" href="/stylesheets/style.css">
+  <link rel="stylesheet" href="../stylesheets/style.css">
 </head>
 
-<body>
+<body class="calm-black">
     <a href="../index.html" class="home-button">Home</a>
+
+    <div>
+        <button class="stressball">tap me </button>
+    </div>
+    <script>
+
+        let tap = 0; 
+        let tapButton = document.querySelector('button');
+        tapButton.addEventListener('click', function() {
+            tap+=1; 
+            tapButton.textContent = '';
+            if(tap > 3){
+                tapButton.classList.remove('tap');
+                tapButton.classList.add('tap1');
+            } if(tap>6){
+                tapButton.classList.remove('tap1');
+                tapButton.classList.add('tap2');
+            } if(tap>9){
+                tapButton.classList.remove('tap2');
+                tapButton.classList.add('tap3');
+            } if(tap>12){
+                tapButton.classList.remove('tap3');
+                tapButton.classList.add('tap4');
+            } if(tap>15){
+                tapButton.classList.remove('tap4');
+                tapButton.classList.add('tap5');
+            } if(tap>18){
+                tapButton.classList.remove('tap5');
+                tapButton.classList.add('tap');
+            }
+        });
+
+    </script>
+
 
 </body>
 
