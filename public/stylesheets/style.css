@@ -165,3 +165,154 @@ button {
   transition: transform 0.1s ease-in-out;
 }
 
+/* Style for Home page */
+/* Style for Home page */
+/* Style for Home page */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.gradient-background {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, rgb(31, 130, 167), black, rgb(255, 40, 6));
+}
+
+.option {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.option.calm {
+  left: 0;
+}
+
+.option.rage {
+  right: 0;
+}
+
+/* Style for Calm Menu page */
+/* Style for Calm Menu page */
+/* Style for Calm Menu page */
+
+.calmMenu {
+  background-color: rgb(31, 130, 167);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.calm-title {
+  font-size: 64px;
+  color: white;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+
+.calm-button {
+  background-color: white;
+  color: rgb(31, 130, 167);
+  padding: 40px;
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
+  width: 90%;
+  text-align: center;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.calm-button:hover {
+  background-color: lightblue;
+  transform: scale(1.05);
+}
+
+/* Style for Rage Menu page */
+/* Style for Rage Menu page */
+/* Style for Rage Menu page */
+
+.rageMenu {
+  background-color: rgb(255, 40, 6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.rage-title {
+  font-size: 64px;
+  color: black;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+
+.rage-button {
+  background-color: black;
+  color: rgb(255, 40, 6);
+  padding: 40px;
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
+  width: 90%;
+  text-align: center;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.rage-button:hover {
+  background-color: rgb(63, 9, 19);
+  transform: scale(1.05);
+}
+
+.home-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  padding: 15px 25px;
+  border-radius: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.home-button:hover {
+  background-color: #f0f0f0;
+}
