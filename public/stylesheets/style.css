@@ -1,3 +1,7 @@
+/* Style for Bubbble Wrap page */
+/* Style for Bubbble Wrap page */
+/* Style for Bubbble Wrap page */
+
 button.bubble{
   height: 125px;
   width: 125px;
@@ -14,7 +18,6 @@ button.bubble:active{
 button.bubble:hover{
   box-shadow: inset 0 0 10px #8c8f8f;
 }
-
 
 button.refresh{
   height: 100px;
@@ -39,7 +42,11 @@ body.calm{
   margin: 200px 50px;
 }
 
-.anger {
+/* Style for Attack page */
+/* Style for Attack page */
+/* Style for Attack page */
+
+.anger, body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background-color: rgba(170, 0, 30, 1);
@@ -89,12 +96,6 @@ button {
   font-size: 16px;
   margin-top: 10px;
 }
-
-/*
-button:hover {
-  background-color: rgb(140, 0, 25);
-}
-*/
 
 #preview {
   width: 100%;
