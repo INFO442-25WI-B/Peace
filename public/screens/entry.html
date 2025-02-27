@@ -8,7 +8,18 @@
 <body>
     <a href="../index.html" class="home-button">Home</a>
 
-    
+    <div class="entry-container">
+        <h1>Write Your Rant</h1>
+        <textarea class="rant-box" placeholder="Type your rant here..."></textarea>
+        <button class="burn-button" onclick="burnRant()">Burn It 🔥</button>
+    </div>
+
+    <script>
+        function burnRant() {
+            let rantBox = document.querySelector('.rant-box');
+            rantBox.value = '';
+        }
+    </script>
 </body>
 
 </html>
