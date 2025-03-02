@@ -23,37 +23,6 @@ div button.stressball{
   color: black; 
 }
 
-.stressball.tap1{
-  height: 200px;
-  width: 200px;
-  background-color: #01efac;
-  border-radius: 50%;
-}
-
-.stressball.tap2{
-  height: 300px;
-  width: 300px;
-  background-color: #2082A6;
-}
-
-.stressball.tap3{
-  height: 500px;
-  width: 500px;
-  background-color: #524094;
-}
-
-.stressball.tap4{
-  height: 800px;
-  width: 800px;
-  background-color: #562a83;
-}
-
-.stressball.tap5{
-  height: 1000px;
-  width: 1000px;
-  background-color: #AA001E;
-}
-
 
 
 /* Style for Breathing Exercise page */
