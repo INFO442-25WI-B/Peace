@@ -13,29 +13,71 @@
     </div>
 
     <div class="breath-text">
-        <div class="breath-left-h-right-p breath-container">
+        <div class="breath-left-h-right-p breath-container" id="step-1">
             <h2> 1 </h2>
             <p> Get in a comfortable sitting position. When you're comfortable close your eyes. </p>
         </div>
 
-        <div class="breath-right-h-left-p breath-container">
+        <div class="breath-right-h-left-p breath-container" id="step-2">
             <p> Breathe in for 4 seconds by expanding your belly. </p>
             <h2> 2 </h2>
 
         </div>
 
-        <div class="breath-left-h-right-p breath-container">
+        <div class="breath-left-h-right-p breath-container" id="step-3">
             <h2> 3 </h2>
             <p> Hold this breathe for 4 seconds. </p>
         </div>
 
-        <div class="breath-right-h-left-p breath-container">
+        <div class="breath-right-h-left-p breath-container" id="step-4">
             <p> Exhale through your nose for another 4 seconds. </p>
             <h2> 4 </h2>
 
         </div>
-    <p class="breath-repeat"> Repeat x 4 </p>
+    <p class="breath-repeat" id="repeat"> Repeat x 4 </p>
+    <button class="start refresh breath-repeat"> START</button>
+
     </div>
 
 </body>
 </html>
+
+<script>
+
+    let step2 = document.getElementById("step-2");
+    let step3 = document.getElementById("step-3");
+    let step4 = document.getElementById("step-4");
+
+    function myTimeout1() {
+        step2.classList.remove('bold-step');
+        step3.classList.add('bold-step');
+    }
+    function myTimeout2() {
+        step3.classList.remove('bold-step');
+        step4.classList.add('bold-step');
+    }
+    function myTimeout3() {
+        count-=1; 
+        step2.classList.add('bold-step');
+        step4.classList.remove('bold-step');
+        if (count!=0){
+            document.getElementById("repeat").innerHTML = `Repeat x ${count}`; 
+        } else {
+            step2.classList.remove('bold-step');
+            document.getElementById("repeat").innerHTML = "Good Job!"; 
+        }
+    }
+
+
+    let count=4; 
+    let start = document.querySelector('button');
+    start.addEventListener('click', function() {
+        step2.classList.add('bold-step');
+        for (let i=0; i <= 3; i++){
+            setTimeout(myTimeout1, i * 12000 + 4000);
+            setTimeout(myTimeout2, i * 12000 + 8000);
+            setTimeout(myTimeout3, i * 12000 + 12000);
+        }
+    });
+
+</script>

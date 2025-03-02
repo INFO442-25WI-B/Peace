@@ -63,7 +63,7 @@ div button.stressball{
 
 body.calm2{
   background-color: #2082A6;
-  display: inline;
+  display: grid;
 }
 
 
@@ -75,7 +75,7 @@ body.calm2{
 
 .breath-right-h-left-p p{
   text-align: left;
-  font-size: 75px;
+  font-size: 70px;
   margin: 40px;
 }
 
@@ -88,7 +88,7 @@ body.calm2{
   
 .breath-left-h-right-p p{
   text-align: right;
-  font-size: 75px;
+  font-size: 70px;
   margin: 40px;
 
 }
@@ -102,7 +102,8 @@ body.calm2{
 .breath-text{
   background-image: linear-gradient(to bottom right, white , #2082A6
   );
-  padding: 50px;
+  padding: 20px;
+  display: grid;
 }
 
 .breath-container{
@@ -117,6 +118,9 @@ body.calm2{
   font-weight: bold;
 }
 
+.bold-step{
+  font-weight: bold;
+}
 
 /* Style for Bubbble Wrap page */
 /* Style for Bubbble Wrap page */
@@ -131,25 +135,26 @@ button.bubble{
   box-shadow: inset 0 0 10px #8c8f8f,  3px 3px 3px 3px #8c8f8f;
 }
 
-button.bubble:active{
-  box-shadow: inset 0 0 10px #8c8f8f;
+button.bubble.popped{
+  box-shadow: inset 0 0 10px #bdc0c0;
 }
 
-button.bubble:hover{
-  box-shadow: inset 0 0 10px #8c8f8f;
-}
 
 button.refresh{
-  height: 100px;
-  width: 200px;
-  font-size: 50px;
   justify-content: center;
-  background-color: aqua;
-}
+  background-color: #2082A6;  
+  font-size: 40px;
+  padding: 30px 60px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 20px;}
 
 body.calm1{
   background-color: #562A83;
-  display: inline;
+  display: flex;
+  flex-direction: column;
 }
 
 .bubble-container {

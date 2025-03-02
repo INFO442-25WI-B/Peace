@@ -68,8 +68,41 @@
 
     <!-- Refresh Button-->
     <div>
-        <button class="refresh"> refresh</button>
+        <button class="refresh"> New Sheet</button>
     </div>
+
+    <audio id="popAudio">
+        <source src="../audio/pop.mp3" type="audio/mpeg">
+        Your browser does not support HTML5 audio.
+    </audio>
+
+
+    <script>
+
+        // create audio function
+        let audio = document.getElementById("popAudio");
+
+        //get bubble and refresh buttons 
+        let bubbleButton = document.querySelectorAll('.bubble');
+        let refreshButton = document.querySelector(".refresh");
+
+        bubbleButton.forEach(function(bubbleButton){
+            bubbleButton.addEventListener('click', function() {
+            bubbleButton.classList.add('popped');
+            audio.play(); 
+            });
+        });
+
+        let allButtons = document.querySelectorAll('button');
+        console.log(refreshButton);
+        refreshButton.addEventListener('click', function() {
+            allButtons.forEach(function(allButtons){
+                allButtons.classList.remove('popped');
+            });
+        });
+
+
+    </script>
 
 </body>
 </html>
