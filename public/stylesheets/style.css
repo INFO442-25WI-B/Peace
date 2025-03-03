@@ -91,6 +91,9 @@ body.calm2{
   font-weight: bold;
 }
 
+button.start{
+  background: #562A83;
+}
 /* Style for Bubbble Wrap page */
 /* Style for Bubbble Wrap page */
 /* Style for Bubbble Wrap page */
@@ -482,6 +485,63 @@ html, body {
     font-size: 28px;
     padding: 25px 50px;
   }
+
+
+  /* Breathing Exercise */
+  .breath-text{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .breath-container{
+    font-size: 25px;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  
+  .breath-right-h-left-p h2{
+    text-align: right;
+    font-size: 40px; 
+    align-items: center;
+  }
+
+  .breath-right-h-left-p p{
+    text-align: left;
+    font-size: 25px;
+    margin: 10px;
+  }
+
+
+  .breath-left-h-right-p h2{
+    text-align: left;
+    font-size: 40px; 
+    margin: 10px;
+  }
+    
+  .breath-left-h-right-p p{
+    text-align: right;
+    font-size: 25px;
+    margin: 10px;
+
+  }
+
+  .breath-repeat{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin: 15px
+  }
+
+  /* Bubble Wrap */ 
+  .bubble-container{
+    flex-direction: column;
+    margin: 10px;
+  }
+
+  button.bubble{
+    height: 65px;
+    width: 65px;
 }
 
 /* Style for Entry Page  */
