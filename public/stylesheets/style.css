@@ -91,8 +91,20 @@ body.calm2{
   font-weight: bold;
 }
 
-button.start{
+button.start-timer-button{
   background: #562A83;
+  justify-self: center;
+  font-size: 40px;
+  padding: 30px 60px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+button.start-timer-button:hover{
+  background-color: #49236e;
 }
 /* Style for Bubbble Wrap page */
 /* Style for Bubbble Wrap page */
@@ -121,7 +133,12 @@ button.refresh{
   border: none;
   cursor: pointer;
   margin-top: 20px;
-  margin-left: 20px;}
+  margin-left: 20px;
+}
+
+button.refresh:hover{
+background-color: #1b708f;
+}
 
 body.calm1{
   background-color: #562A83;
@@ -507,7 +524,7 @@ html, body {
   }
 
   .breath-right-h-left-p p{
-    text-align: left;
+    text-align: center;
     font-size: 25px;
     margin: 10px;
   }
@@ -520,7 +537,7 @@ html, body {
   }
     
   .breath-left-h-right-p p{
-    text-align: right;
+    text-align: center;
     font-size: 25px;
     margin: 10px;
 
