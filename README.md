@@ -25,7 +25,7 @@ Upload a photo of your nemesis (or that parking ticket).
  Then go to town with a fork, knife, or baseball bat.
  Cathartic? Absolutely. Consequences? Zero.
 
-🌬️ Breathing Thing (coming soon!) – For when you’re “count to ten” irked
+🌬️ Breathing Thing – For when you’re “count to ten” irked
 A simple, soothing space to inhale the chill and exhale the drama. Your lungs will love it. Your ex will not.
 
 🖐️ Tapping Frenzy – For when you’re “fidgety and feral” mad
