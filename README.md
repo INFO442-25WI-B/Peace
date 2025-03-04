@@ -88,4 +88,4 @@ __Needs Related to the New System:__
 ## Architecture
 
 User Interaction Diagram
-![Architecture](https://github.com/user-attachments/assets/a9982fa1-08b5-4e6a-8a7f-8caf91e2a781)
+![Architecture1](https://github.com/user-attachments/assets/b6dc10db-f854-4a19-aceb-709433ff2359)
