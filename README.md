@@ -13,9 +13,11 @@ By redirecting negativity into self-improvement (and giving you fun ways to safe
 ## Requirements
 ### Features and Benfits 
 😡💥 Welcome to ANGER: The Only App That Gets Your Rage 💥😡
+
 Why bottle up your feelings when you can unleash them... digitally... and legally?
 
 🌟 FEATURES & BENEFITS (aka your new coping BFFs) 🌟
+
 🫧 Bubble Wrap Bonanza – For when you’re “I just need a sec” mad
 Click. Pop. Repeat.
  Endless virtual bubble wrap to squish your stress into oblivion, minus the awkward stares from coworkers. Bonus: satisfying sound effects guaranteed.
