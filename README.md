@@ -1,5 +1,7 @@
 # ANGER
-Members: Katie, Emma, Alani, Yenmy 
+Members: Katie Hulst, Emma Esteban, Alani Gayles, Yenmy Vo
+
+Link to Site: 
 
 ## Justification
 ### Problem Statement
