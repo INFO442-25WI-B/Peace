@@ -30,9 +30,13 @@ div button.stressball{
 /* Style for Breathing Exercise page */
 
 
-body.calm2{
+body.calm2 {
   background-color: #2082A6;
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+  justify-content: space-between;
+  align-items: center;
 }
 
 
@@ -68,11 +72,15 @@ body.calm2{
   margin: 90px 0px 25px 0px;
 }
 
-.breath-text{
-  background-image: linear-gradient(to bottom right, white , #2082A6
-  );
+.breath-text {
+  background-image: linear-gradient(to bottom right, white, #2082A6);
   padding: 20px;
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  flex-grow: 1;
 }
 
 .breath-container{
@@ -81,10 +89,11 @@ body.calm2{
   align-items: center;
 }
 
-.breath-repeat{
-  font-size: 75px;
-  text-align: center;
+.breath-repeat {
+  font-size: 50px;
   font-weight: bold;
+  margin-bottom: 10px;
+  color: white;
 }
 
 .bold-step{
@@ -107,6 +116,24 @@ button.start-timer-button{
 button.start-timer-button:hover{
   background-color: #49236e;
 }
+
+.breath-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.start-timer-button {
+  background: #562A83;
+  font-size: 40px;
+  padding: 20px 40px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+}
+
 /* Style for Bubbble Wrap page */
 /* Style for Bubbble Wrap page */
 /* Style for Bubbble Wrap page */
