@@ -54,7 +54,7 @@ Turn rage into radiance. Let’s make the world a slightly less chaotic place, o
 
 
 ### Design Requirements
-- Our project is a functional mobile application. 
+- Our project is a functional mobile site. 
 - Screen dimensions fit an iPhone 16.
 - App uses fun/silly language. Not meant for a professional or polished setting.
 - Bare and simplistic design to avoid overstimulation and further confusion
